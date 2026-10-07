@@ -1,0 +1,882 @@
+dns:
+  enable: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  nameserver-policy:
+    'ChinaClassical,Apple,SteamCN,geosite:cn':
+      - tls://1.12.12.12
+      - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+    - tls://dns.google:853
+    - tls://1.0.0.1:853
+proxies:
+  - name: 🔥【交流群@pgkj0402】 01-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 📢【频道群@pgkj666】 02-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 03-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 04-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 05-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 06-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 01-🇭🇰【亚洲】香港04丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 02-🇭🇰【亚洲】香港04丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 03-🇭🇰【亚洲】香港04丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 04-🇭🇰【亚洲】香港04丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.bing.com
+    up:
+    down:
+    skip-cert-verify: false
+    ports: ''
+  - name: 01-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 02-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 03-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 04-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 05-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 06-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 07-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 08-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 09-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 10-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 01-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 02-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 03-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 04-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 05-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 06-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 07-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 08-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 09-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 10-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 01-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 02-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 03-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 04-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 05-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 06-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 07-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 08-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 09-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 10-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 01-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 02-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 01-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 02-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 03-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 04-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 05-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 06-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 07-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 08-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 09-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 10-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 01-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 02-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 03-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 04-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 05-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 06-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 07-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+  - name: 08-建议：感到卡顿请切换到专线节点
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+proxy-groups:
+  - name: '🚀 节点选择'
+    type: select
+    proxies:
+      - 🇭🇰 🇭🇰【亚洲】香港03丨直连
+      - 🇭🇰 🇭🇰【亚洲】香港04丨直连
+      - 🇭🇰 🇭🇰【亚洲】香港05原生丨移动直连
+      - 🇸🇬 🇸🇬 【亚洲】新加坡01丨Vless
+      - 🇸🇬 🇸🇬 【亚洲】新加坡02丨Vless
+      - 🇯🇵 🇯🇵【亚洲】日本01丨Vless
+      - 🇯🇵 🇯🇵【亚洲】日本03丨Vless
+      - 🏴‍☠️ 建议：感到卡顿请切换到专线节点
+  - name: '🌍 国外媒体'
+    type: select
+    proxies: ['🚀 节点选择', '🎯 全球直连']
+  - name: 'Ⓜ️ 微软服务'
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择']
+  - name: '🍎 苹果服务'
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择']
+  - name: '📦 PikPak'
+    type: select
+    proxies: ['🚀 节点选择', '🎯 全球直连']
+  - name: '🤖 OpenAI'
+    type: select
+    proxies: ['🚀 节点选择', '🎯 全球直连']
+  - name: '🐟 漏网之鱼'
+    type: select
+    proxies: ['🚀 节点选择', '🎯 全球直连']
+  - name: '🎯 全球直连'
+    type: select
+    proxies: [DIRECT]
+  - name: 🇭🇰 🇭🇰【亚洲】香港03丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 🔥【交流群@pgkj0402】 01-🇭🇰【亚洲】香港03丨直连
+      - 📢【频道群@pgkj666】 02-🇭🇰【亚洲】香港03丨直连
+      - 03-🇭🇰【亚洲】香港03丨直连
+      - 04-🇭🇰【亚洲】香港03丨直连
+      - 05-🇭🇰【亚洲】香港03丨直连
+      - 06-🇭🇰【亚洲】香港03丨直连
+  - name: 🇭🇰 🇭🇰【亚洲】香港04丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇭🇰【亚洲】香港04丨直连
+      - 02-🇭🇰【亚洲】香港04丨直连
+      - 03-🇭🇰【亚洲】香港04丨直连
+      - 04-🇭🇰【亚洲】香港04丨直连
+  - name: 🇭🇰 🇭🇰【亚洲】香港05原生丨移动直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇭🇰【亚洲】香港05原生丨移动直连
+      - 02-🇭🇰【亚洲】香港05原生丨移动直连
+      - 03-🇭🇰【亚洲】香港05原生丨移动直连
+      - 04-🇭🇰【亚洲】香港05原生丨移动直连
+      - 05-🇭🇰【亚洲】香港05原生丨移动直连
+      - 06-🇭🇰【亚洲】香港05原生丨移动直连
+      - 07-🇭🇰【亚洲】香港05原生丨移动直连
+      - 08-🇭🇰【亚洲】香港05原生丨移动直连
+      - 09-🇭🇰【亚洲】香港05原生丨移动直连
+      - 10-🇭🇰【亚洲】香港05原生丨移动直连
+  - name: 🇸🇬 🇸🇬 【亚洲】新加坡01丨Vless
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬 【亚洲】新加坡01丨Vless
+      - 02-🇸🇬 【亚洲】新加坡01丨Vless
+      - 03-🇸🇬 【亚洲】新加坡01丨Vless
+      - 04-🇸🇬 【亚洲】新加坡01丨Vless
+      - 05-🇸🇬 【亚洲】新加坡01丨Vless
+      - 06-🇸🇬 【亚洲】新加坡01丨Vless
+      - 07-🇸🇬 【亚洲】新加坡01丨Vless
+      - 08-🇸🇬 【亚洲】新加坡01丨Vless
+      - 09-🇸🇬 【亚洲】新加坡01丨Vless
+      - 10-🇸🇬 【亚洲】新加坡01丨Vless
+  - name: 🇸🇬 🇸🇬 【亚洲】新加坡02丨Vless
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬 【亚洲】新加坡02丨Vless
+      - 02-🇸🇬 【亚洲】新加坡02丨Vless
+      - 03-🇸🇬 【亚洲】新加坡02丨Vless
+      - 04-🇸🇬 【亚洲】新加坡02丨Vless
+      - 05-🇸🇬 【亚洲】新加坡02丨Vless
+      - 06-🇸🇬 【亚洲】新加坡02丨Vless
+      - 07-🇸🇬 【亚洲】新加坡02丨Vless
+      - 08-🇸🇬 【亚洲】新加坡02丨Vless
+      - 09-🇸🇬 【亚洲】新加坡02丨Vless
+      - 10-🇸🇬 【亚洲】新加坡02丨Vless
+  - name: 🇯🇵 🇯🇵【亚洲】日本01丨Vless
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇯🇵【亚洲】日本01丨Vless
+      - 02-🇯🇵【亚洲】日本01丨Vless
+  - name: 🇯🇵 🇯🇵【亚洲】日本03丨Vless
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇯🇵【亚洲】日本03丨Vless
+      - 02-🇯🇵【亚洲】日本03丨Vless
+      - 03-🇯🇵【亚洲】日本03丨Vless
+      - 04-🇯🇵【亚洲】日本03丨Vless
+      - 05-🇯🇵【亚洲】日本03丨Vless
+      - 06-🇯🇵【亚洲】日本03丨Vless
+      - 07-🇯🇵【亚洲】日本03丨Vless
+      - 08-🇯🇵【亚洲】日本03丨Vless
+      - 09-🇯🇵【亚洲】日本03丨Vless
+      - 10-🇯🇵【亚洲】日本03丨Vless
+  - name: 🏴‍☠️ 建议：感到卡顿请切换到专线节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-建议：感到卡顿请切换到专线节点
+      - 02-建议：感到卡顿请切换到专线节点
+      - 03-建议：感到卡顿请切换到专线节点
+      - 04-建议：感到卡顿请切换到专线节点
+      - 05-建议：感到卡顿请切换到专线节点
+      - 06-建议：感到卡顿请切换到专线节点
+      - 07-建议：感到卡顿请切换到专线节点
+      - 08-建议：感到卡顿请切换到专线节点
+rules:
+  - 'IP-CIDR,129.146.160.80/32,DIRECT,no-resolve'
+  - 'IP-CIDR,148.135.52.61/32,DIRECT,no-resolve'
+  - 'IP-CIDR,148.135.56.101/32,DIRECT,no-resolve'
+  - 'IP-CIDR,37.123.193.133/32,DIRECT,no-resolve'
+  - 'IP-CIDR,111.119.203.69/32,DIRECT,no-resolve'
+  - 'IP-CIDR,110.238.105.126/32,DIRECT,no-resolve'
+  - 'IP-CIDR,166.108.206.148/32,DIRECT,no-resolve'
+  - 'IP-CIDR,155.248.181.42/32,DIRECT,no-resolve'
+  - 'IP-CIDR,176.126.114.184/32,DIRECT,no-resolve'
+  - 'IP-CIDR,103.238.129.152/32,DIRECT,no-resolve'
+  - 'IP-CIDR,45.66.217.124/32,DIRECT,no-resolve'
+  - 'IP-CIDR,183.2.133.144/32,DIRECT,no-resolve'
+  - 'IP-CIDR,103.103.245.13/32,DIRECT,no-resolve'
+  - 'DOMAIN,github.moeyy.xyz,DIRECT'
+  - 'DOMAIN,hk.xybhdy.top,DIRECT'
+  - 'DOMAIN,hd1dc.com,DIRECT'
+  - 'RULE-SET,LocalAreaNetwork,DIRECT'
+  - 'RULE-SET,BanAD,REJECT'
+  - 'RULE-SET,BanAdobe,REJECT'
+  - 'RULE-SET,GoogleFCM,🚀 节点选择'
+  - 'RULE-SET,SteamCN,DIRECT'
+  - 'RULE-SET,Microsoft,Ⓜ️ 微软服务'
+  - 'RULE-SET,Apple,🍎 苹果服务'
+  - 'RULE-SET,Telegram,🚀 节点选择'
+  - 'RULE-SET,PikPak,📦 PikPak'
+  - 'RULE-SET,OpenAI,🤖 OpenAI'
+  - 'RULE-SET,Claude,🤖 OpenAI'
+  - 'RULE-SET,Gemini,🤖 OpenAI'
+  - 'RULE-SET,ProxyMedia,🌍 国外媒体'
+  - 'RULE-SET,ProxyClassical,🚀 节点选择'
+  - 'RULE-SET,ChinaCIDR,DIRECT'
+  - 'RULE-SET,ChinaClassical,DIRECT'
+  - 'GEOIP,CN,DIRECT'
+  - 'MATCH,🐟 漏网之鱼'
+rule-providers:
+  Apple: {behavior: classical, interval: 604800, path: ./rules/Apple.yaml, type: 
+      http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Apple/Apple.yaml'}
+  BanAD: {behavior: domain, interval: 604800, path: ./rules/BanAD.yaml, type: 
+      http, url: 'https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt'}
+  BanAdobe: {behavior: classical, interval: 604800, path: ./rules/BanAdobe.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/clash.yaml'}
+  ChinaCIDR: {behavior: ipcidr, interval: 604800, path: ./rules/CNCIDR.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt'}
+  ChinaClassical: {behavior: domain, interval: 604800, path: 
+      ./rules/ChinaClassical.yaml, type: http, url: 'https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt'}
+  Claude: {behavior: classical, interval: 604800, path: ./rules/Claude.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml'}
+  Gemini: {behavior: classical, interval: 604800, path: ./rules/Gemini.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml'}
+  GoogleFCM: {behavior: classical, interval: 604800, path: 
+      ./rules/GoogleFCM.yaml, type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleFCM/GoogleFCM.yaml'}
+  LocalAreaNetwork: {behavior: classical, interval: 604800, path: 
+      ./rules/LocalAreaNetwork.yaml, type: http, url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml'}
+  Microsoft: {behavior: classical, interval: 604800, path: 
+      ./rules/Microsoft.yaml, type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.yaml'}
+  OpenAI: {behavior: classical, interval: 604800, path: ./rules/OpenAI.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml'}
+  PikPak: {behavior: classical, interval: 604800, path: ./rules/PikPak.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml'}
+  ProxyClassical: {behavior: domain, interval: 604800, path: 
+      ./rules/ProxyClassical.yaml, type: http, url: 'https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt'}
+  ProxyMedia: {behavior: classical, interval: 604800, path: 
+      ./rules/ProxyMedia.yaml, type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml'}
+  SteamCN: {behavior: classical, interval: 604800, path: ./rules/SteamCN.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.yaml'}
+  Telegram: {behavior: classical, interval: 604800, path: ./rules/Telegram.yaml, 
+      type: http, url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml'}
