@@ -13,132 +13,372 @@ dns:
     - tls://dns.google:853
     - tls://1.0.0.1:853
 proxies:
-  - name: 🔥【交流群@pgkj0402】 01-🇭🇰【亚洲】香港03丨直连
-    type: hysteria2
-    server: hk01.poke-mon.xyz
-    port: 8443
-    password: d4a27237-0334-4099-a380-7513fa05816d
-    sni: www.bing.com
-    up:
-    down:
-    skip-cert-verify: false
-    ports: ''
-  - name: 📢【频道群@pgkj666】 02-🇭🇰【亚洲】香港03丨直连
-    type: hysteria2
-    server: hk01.poke-mon.xyz
-    port: 8443
-    password: 65d3feaa-0180-4016-884f-381f119b7032
-    sni: www.bing.com
-    up:
-    down:
-    skip-cert-verify: false
-    ports: ''
-  - name: 03-🇭🇰【亚洲】香港03丨直连
-    type: hysteria2
-    server: hk01.poke-mon.xyz
-    port: 8443
-    password: b29a3a20-1d20-448b-b640-f47f69138a87
-    sni: www.bing.com
-    up:
-    down:
-    skip-cert-verify: false
-    ports: ''
-  - name: 04-🇭🇰【亚洲】香港03丨直连
-    type: hysteria2
-    server: hk01.poke-mon.xyz
-    port: 8443
+  - name: 🔥【交流群@pgkj0402】 01-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
     password: 0578697a-f757-428c-8d4a-59654cbc98e7
-    sni: www.bing.com
-    up:
-    down:
-    skip-cert-verify: false
-    ports: ''
-  - name: 05-🇭🇰【亚洲】香港03丨直连
-    type: hysteria2
-    server: hk01.poke-mon.xyz
-    port: 8443
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 📢【频道群@pgkj666】 02-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
     password: b95fd9b3-cf96-408f-b670-067e70afbfb5
-    sni: www.bing.com
-    up:
-    down:
-    skip-cert-verify: false
-    ports: ''
-  - name: 06-🇭🇰【亚洲】香港03丨直连
-    type: hysteria2
-    server: hk01.poke-mon.xyz
-    port: 8443
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
     password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
-    sni: www.bing.com
-    up:
-    down:
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇭🇰【亚洲】香港01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54357
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 01-🇭🇰【亚洲】香港01丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
     skip-cert-verify: false
-    ports: ''
-  - name: 01-🇭🇰【亚洲】香港04丨直连
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 02-🇭🇰【亚洲】香港01丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 03-🇭🇰【亚洲】香港01丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 04-🇭🇰【亚洲】香港01丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 05-🇭🇰【亚洲】香港01丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 06-🇭🇰【亚洲】香港01丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 01-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 02-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇭🇰【亚洲】香港02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54357
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 01-🇭🇰【亚洲】香港02丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 02-🇭🇰【亚洲】香港02丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 03-🇭🇰【亚洲】香港02丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 04-🇭🇰【亚洲】香港02丨直连
+    type: hysteria2
+    server: 209.9.200.33
+    port: 20000
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    skip-cert-verify: false
+    udp: true
+    sni: d1.awsstatic.com
+    ports: 20000-50000
+  - name: 01-🇭🇰【亚洲】香港03丨直连
     type: hysteria2
     server: hk01.poke-mon.xyz
     port: 8443
     password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
-    sni: www.bing.com
-    up:
-    down:
     skip-cert-verify: false
-    ports: ''
-  - name: 02-🇭🇰【亚洲】香港04丨直连
+    udp: true
+    sni: www.bing.com
+  - name: 02-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+  - name: 03-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+  - name: 04-🇭🇰【亚洲】香港03丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+  - name: 05-🇭🇰【亚洲】香港03丨直连
     type: hysteria2
     server: hk01.poke-mon.xyz
     port: 8443
     password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
-    sni: www.bing.com
-    up:
-    down:
     skip-cert-verify: false
-    ports: ''
+    udp: true
+    sni: www.bing.com
+  - name: 01-🇭🇰【亚洲】香港04丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+  - name: 02-🇭🇰【亚洲】香港04丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
   - name: 03-🇭🇰【亚洲】香港04丨直连
     type: hysteria2
     server: hk01.poke-mon.xyz
     port: 8443
-    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
-    sni: www.bing.com
-    up:
-    down:
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
     skip-cert-verify: false
-    ports: ''
+    udp: true
+    sni: www.bing.com
   - name: 04-🇭🇰【亚洲】香港04丨直连
     type: hysteria2
     server: hk01.poke-mon.xyz
     port: 8443
-    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
-    sni: www.bing.com
-    up:
-    down:
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
     skip-cert-verify: false
-    ports: ''
+    udp: true
+    sni: www.bing.com
+  - name: 05-🇭🇰【亚洲】香港04丨直连
+    type: hysteria2
+    server: hk01.poke-mon.xyz
+    port: 8443
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
   - name: 01-🇭🇰【亚洲】香港05原生丨移动直连
     type: vless
     server: 152.175.28.50
     port: 50133
-    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 02-🇭🇰【亚洲】香港05原生丨移动直连
     type: vless
     server: 152.175.28.50
     port: 50133
-    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 03-🇭🇰【亚洲】香港05原生丨移动直连
-    type: vless
-    server: 152.175.28.50
-    port: 50133
     uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
     tls: true
     servername: d1.awsstatic.com
@@ -146,51 +386,8 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 04-🇭🇰【亚洲】香港05原生丨移动直连
-    type: vless
-    server: 152.175.28.50
-    port: 50133
-    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 05-🇭🇰【亚洲】香港05原生丨移动直连
-    type: vless
-    server: 152.175.28.50
-    port: 50133
-    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 06-🇭🇰【亚洲】香港05原生丨移动直连
-    type: vless
-    server: 152.175.28.50
-    port: 50133
-    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 07-🇭🇰【亚洲】香港05原生丨移动直连
-    type: vless
-    server: 152.175.28.50
-    port: 50133
-    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 08-🇭🇰【亚洲】香港05原生丨移动直连
+    network: tcp
+  - name: 03-🇭🇰【亚洲】香港05原生丨移动直连
     type: vless
     server: 152.175.28.50
     port: 50133
@@ -201,18 +398,44 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 09-🇭🇰【亚洲】香港05原生丨移动直连
+    network: tcp
+  - name: 04-🇭🇰【亚洲】香港05原生丨移动直连
     type: vless
     server: 152.175.28.50
     port: 50133
-    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 10-🇭🇰【亚洲】香港05原生丨移动直连
+    network: tcp
+  - name: 05-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 06-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 07-🇭🇰【亚洲】香港05原生丨移动直连
     type: vless
     server: 152.175.28.50
     port: 50133
@@ -223,7 +446,92 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
+  - name: 08-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 09-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 10-🇭🇰【亚洲】香港05原生丨移动直连
+    type: vless
+    server: 152.175.28.50
+    port: 50133
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
   - name: 01-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 02-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 03-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 04-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 05-🇸🇬 【亚洲】新加坡01丨Vless
     type: vless
     server: vless-sg01.waimaosass.icu
     port: 50131
@@ -234,7 +542,56 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 02-🇸🇬 【亚洲】新加坡01丨Vless
+    network: tcp
+  - name: 06-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 07-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 08-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 09-🇸🇬 【亚洲】新加坡01丨Vless
+    type: vless
+    server: vless-sg01.waimaosass.icu
+    port: 50131
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 10-🇸🇬 【亚洲】新加坡01丨Vless
     type: vless
     server: vless-sg01.waimaosass.icu
     port: 50131
@@ -245,75 +602,10 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 03-🇸🇬 【亚洲】新加坡01丨Vless
+    network: tcp
+  - name: 01-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
-    server: vless-sg01.waimaosass.icu
-    port: 50131
-    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 04-🇸🇬 【亚洲】新加坡01丨Vless
-    type: vless
-    server: vless-sg01.waimaosass.icu
-    port: 50131
-    uuid: d4a27237-0334-4099-a380-7513fa05816d
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 05-🇸🇬 【亚洲】新加坡01丨Vless
-    type: vless
-    server: vless-sg01.waimaosass.icu
-    port: 50131
-    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 06-🇸🇬 【亚洲】新加坡01丨Vless
-    type: vless
-    server: vless-sg01.waimaosass.icu
-    port: 50131
-    uuid: 65d3feaa-0180-4016-884f-381f119b7032
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 07-🇸🇬 【亚洲】新加坡01丨Vless
-    type: vless
-    server: vless-sg01.waimaosass.icu
-    port: 50131
-    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 08-🇸🇬 【亚洲】新加坡01丨Vless
-    type: vless
-    server: vless-sg01.waimaosass.icu
-    port: 50131
-    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 09-🇸🇬 【亚洲】新加坡01丨Vless
-    type: vless
-    server: vless-sg01.waimaosass.icu
+    server: vless-sg02.waimaosass.icu
     port: 50131
     uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
     tls: true
@@ -322,9 +614,22 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 10-🇸🇬 【亚洲】新加坡01丨Vless
+    network: tcp
+  - name: 02-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
-    server: vless-sg01.waimaosass.icu
+    server: vless-sg02.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 03-🇸🇬 【亚洲】新加坡02丨Vless
+    type: vless
+    server: vless-sg02.waimaosass.icu
     port: 50131
     uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
     tls: true
@@ -333,39 +638,7 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 01-🇸🇬 【亚洲】新加坡02丨Vless
-    type: vless
-    server: vless-sg02.waimaosass.icu
-    port: 50131
-    uuid: d4a27237-0334-4099-a380-7513fa05816d
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 02-🇸🇬 【亚洲】新加坡02丨Vless
-    type: vless
-    server: vless-sg02.waimaosass.icu
-    port: 50131
-    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 03-🇸🇬 【亚洲】新加坡02丨Vless
-    type: vless
-    server: vless-sg02.waimaosass.icu
-    port: 50131
-    uuid: 65d3feaa-0180-4016-884f-381f119b7032
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
+    network: tcp
   - name: 04-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
     server: vless-sg02.waimaosass.icu
@@ -377,108 +650,556 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 05-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
     server: vless-sg02.waimaosass.icu
     port: 50131
-    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 06-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
     server: vless-sg02.waimaosass.icu
     port: 50131
-    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 07-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
     server: vless-sg02.waimaosass.icu
     port: 50131
-    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 08-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
     server: vless-sg02.waimaosass.icu
     port: 50131
-    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 09-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
     server: vless-sg02.waimaosass.icu
     port: 50131
-    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 10-🇸🇬 【亚洲】新加坡02丨Vless
     type: vless
     server: vless-sg02.waimaosass.icu
     port: 50131
-    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
+  - name: 01-🇸🇬【亚洲】新加坡01丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 02-🇸🇬【亚洲】新加坡01丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 03-🇸🇬【亚洲】新加坡01丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 04-🇸🇬【亚洲】新加坡01丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 05-🇸🇬【亚洲】新加坡01丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 06-🇸🇬【亚洲】新加坡01丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 01-🇸🇬【亚洲】新加坡02丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 02-🇸🇬【亚洲】新加坡02丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 03-🇸🇬【亚洲】新加坡02丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 04-🇸🇬【亚洲】新加坡02丨直连
+    type: hysteria2
+    server: sg01-hy.poke-mon.xyz
+    port: 20000
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 01-🇸🇬【亚洲】新加坡03丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 02-🇸🇬【亚洲】新加坡03丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 03-🇸🇬【亚洲】新加坡03丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 04-🇸🇬【亚洲】新加坡03丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 05-🇸🇬【亚洲】新加坡03丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 01-🇸🇬【亚洲】新加坡04丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 02-🇸🇬【亚洲】新加坡04丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 03-🇸🇬【亚洲】新加坡04丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 04-🇸🇬【亚洲】新加坡04丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 05-🇸🇬【亚洲】新加坡04丨直连
+    type: hysteria2
+    server: sg02-hy.poke-mon.xyz
+    port: 20000
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    skip-cert-verify: false
+    udp: true
+    sni: www.bing.com
+    ports: 20000-50000
+  - name: 01-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 02-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54258
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 01-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 02-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54258
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 01-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 02-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇯🇵【亚洲】日本01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54261
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
   - name: 01-🇯🇵【亚洲】日本01丨Vless
     type: vless
     server: vless-jp01.waimaosass.icu
     port: 50131
-    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
   - name: 02-🇯🇵【亚洲】日本01丨Vless
     type: vless
     server: vless-jp01.waimaosass.icu
     port: 50131
-    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
     tls: true
     servername: d1.awsstatic.com
     flow: xtls-rprx-vision
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 01-🇯🇵【亚洲】日本03丨Vless
+    network: tcp
+  - name: 03-🇯🇵【亚洲】日本01丨Vless
     type: vless
-    server: vless-jp03.waimaosass.icu
-    port: 50131
-    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 02-🇯🇵【亚洲】日本03丨Vless
-    type: vless
-    server: vless-jp03.waimaosass.icu
+    server: vless-jp01.waimaosass.icu
     port: 50131
     uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
     tls: true
@@ -487,7 +1208,302 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 03-🇯🇵【亚洲】日本03丨Vless
+    network: tcp
+  - name: 04-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 05-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 06-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 07-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 08-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 09-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 10-🇯🇵【亚洲】日本01丨Vless
+    type: vless
+    server: vless-jp01.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 01-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 02-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇯🇵【亚洲】日本02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54261
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 01-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 02-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 03-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 04-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: 65d3feaa-0180-4016-884f-381f119b7032
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 05-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 06-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 07-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: d4a27237-0334-4099-a380-7513fa05816d
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 08-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 09-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 10-🇯🇵【亚洲】日本02丨Vless
+    type: vless
+    server: vless-jp02.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 01-🇯🇵【亚洲】日本03丨Vless
     type: vless
     server: vless-jp03.waimaosass.icu
     port: 50131
@@ -498,62 +1514,8 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 04-🇯🇵【亚洲】日本03丨Vless
-    type: vless
-    server: vless-jp03.waimaosass.icu
-    port: 50131
-    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 05-🇯🇵【亚洲】日本03丨Vless
-    type: vless
-    server: vless-jp03.waimaosass.icu
-    port: 50131
-    uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 06-🇯🇵【亚洲】日本03丨Vless
-    type: vless
-    server: vless-jp03.waimaosass.icu
-    port: 50131
-    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 07-🇯🇵【亚洲】日本03丨Vless
-    type: vless
-    server: vless-jp03.waimaosass.icu
-    port: 50131
-    uuid: d4a27237-0334-4099-a380-7513fa05816d
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 08-🇯🇵【亚洲】日本03丨Vless
-    type: vless
-    server: vless-jp03.waimaosass.icu
-    port: 50131
-    uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 09-🇯🇵【亚洲】日本03丨Vless
+    network: tcp
+  - name: 02-🇯🇵【亚洲】日本03丨Vless
     type: vless
     server: vless-jp03.waimaosass.icu
     port: 50131
@@ -564,7 +1526,8 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 10-🇯🇵【亚洲】日本03丨Vless
+    network: tcp
+  - name: 03-🇯🇵【亚洲】日本03丨Vless
     type: vless
     server: vless-jp03.waimaosass.icu
     port: 50131
@@ -575,64 +1538,10 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 01-建议：感到卡顿请切换到专线节点
+    network: tcp
+  - name: 04-🇯🇵【亚洲】日本03丨Vless
     type: vless
-    server: vless-jp01.waimaosass.icu
-    port: 50131
-    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 02-建议：感到卡顿请切换到专线节点
-    type: vless
-    server: vless-jp01.waimaosass.icu
-    port: 50131
-    uuid: 0578697a-f757-428c-8d4a-59654cbc98e7
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 03-建议：感到卡顿请切换到专线节点
-    type: vless
-    server: vless-jp01.waimaosass.icu
-    port: 50131
-    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 04-建议：感到卡顿请切换到专线节点
-    type: vless
-    server: vless-jp01.waimaosass.icu
-    port: 50131
-    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 05-建议：感到卡顿请切换到专线节点
-    type: vless
-    server: vless-jp01.waimaosass.icu
-    port: 50131
-    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
-    tls: true
-    servername: d1.awsstatic.com
-    flow: xtls-rprx-vision
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-  - name: 06-建议：感到卡顿请切换到专线节点
-    type: vless
-    server: vless-jp01.waimaosass.icu
+    server: vless-jp03.waimaosass.icu
     port: 50131
     uuid: cdc2ee21-9361-4765-9dad-b6fa6123cd45
     tls: true
@@ -641,9 +1550,22 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 07-建议：感到卡顿请切换到专线节点
+    network: tcp
+  - name: 05-🇯🇵【亚洲】日本03丨Vless
     type: vless
-    server: vless-jp01.waimaosass.icu
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 06-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
     port: 50131
     uuid: d4a27237-0334-4099-a380-7513fa05816d
     tls: true
@@ -652,9 +1574,10 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
-  - name: 08-建议：感到卡顿请切换到专线节点
+    network: tcp
+  - name: 07-🇯🇵【亚洲】日本03丨Vless
     type: vless
-    server: vless-jp01.waimaosass.icu
+    server: vless-jp03.waimaosass.icu
     port: 50131
     uuid: 4970d32e-d10f-446e-88d8-17f1a0209c23
     tls: true
@@ -663,18 +1586,423 @@ proxies:
     encryption: none
     udp: true
     skip-cert-verify: true
+    network: tcp
+  - name: 08-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: b29a3a20-1d20-448b-b640-f47f69138a87
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 09-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 10-🇯🇵【亚洲】日本03丨Vless
+    type: vless
+    server: vless-jp03.waimaosass.icu
+    port: 50131
+    uuid: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    tls: true
+    servername: d1.awsstatic.com
+    flow: xtls-rprx-vision
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 01-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 02-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇺🇸【北美洲】美国01丨V6【1x】
+    type: trojan
+    server: ptxlv6-01.waimaosass.icu
+    port: 54273
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 01-🇺🇸【北美洲】美国01原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 02-🇺🇸【北美洲】美国01原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 03-🇺🇸【北美洲】美国01原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 04-🇺🇸【北美洲】美国01原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 01-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 02-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 03-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 04-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 05-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 06-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 07-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 08-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 09-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 10-🇺🇸【北美洲】美国02丨V6【1x】
+    type: trojan
+    server: ptxlv6-02.waimaosass.icu
+    port: 54273
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    network: tcp
+  - name: 01-🇺🇸【北美洲】美国02原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 02-🇺🇸【北美洲】美国02原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 03-🇺🇸【北美洲】美国02原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 04-🇺🇸【北美洲】美国02原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 05-🇺🇸【北美洲】美国02原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 06-🇺🇸【北美洲】美国02原生丨直连【2x】
+    type: hysteria2
+    server: us01zl.poke-mon.xyz
+    port: 20000
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+    ports: 20000-50000
+  - name: 01-🇺🇸【北美洲】美国03原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: b95fd9b3-cf96-408f-b670-067e70afbfb5
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 02-🇺🇸【北美洲】美国03原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: cdc2ee21-9361-4765-9dad-b6fa6123cd45
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 03-🇺🇸【北美洲】美国03原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: 65d3feaa-0180-4016-884f-381f119b7032
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 01-🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: 378641a1-febc-4d6c-af90-6b1f3a1da25f
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 02-🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: 0578697a-f757-428c-8d4a-59654cbc98e7
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 03-🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: a42a4dcb-23ab-4ca5-806d-6ff7a66df3d8
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 04-🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: 4970d32e-d10f-446e-88d8-17f1a0209c23
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 05-🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: d4a27237-0334-4099-a380-7513fa05816d
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 06-🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: b29a3a20-1d20-448b-b640-f47f69138a87
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
+  - name: 07-🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: hysteria2
+    server: us02zl.poke-mon.xyz
+    port: 443
+    password: 656b1ff9-1bc6-4322-a5a5-5ca1fa24d3ee
+    skip-cert-verify: false
+    udp: true
+    sni: bing.com
 proxy-groups:
   - name: '🚀 节点选择'
     type: select
     proxies:
+      - 🇭🇰 🇭🇰【亚洲】香港01丨V6【1x】
+      - 🇭🇰 🇭🇰【亚洲】香港01丨直连
+      - 🇭🇰 🇭🇰【亚洲】香港02丨V6【1x】
+      - 🇭🇰 🇭🇰【亚洲】香港02丨直连
       - 🇭🇰 🇭🇰【亚洲】香港03丨直连
       - 🇭🇰 🇭🇰【亚洲】香港04丨直连
       - 🇭🇰 🇭🇰【亚洲】香港05原生丨移动直连
       - 🇸🇬 🇸🇬 【亚洲】新加坡01丨Vless
       - 🇸🇬 🇸🇬 【亚洲】新加坡02丨Vless
+      - 🇸🇬 🇸🇬【亚洲】新加坡01丨直连
+      - 🇸🇬 🇸🇬【亚洲】新加坡02丨直连
+      - 🇸🇬 🇸🇬【亚洲】新加坡03丨直连
+      - 🇸🇬 🇸🇬【亚洲】新加坡04丨直连
+      - 🇸🇬 🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 🇸🇬 🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 🇯🇵 🇯🇵【亚洲】日本01丨V6【1x】
       - 🇯🇵 🇯🇵【亚洲】日本01丨Vless
+      - 🇯🇵 🇯🇵【亚洲】日本02丨V6【1x】
+      - 🇯🇵 🇯🇵【亚洲】日本02丨Vless
       - 🇯🇵 🇯🇵【亚洲】日本03丨Vless
-      - 🏴‍☠️ 建议：感到卡顿请切换到专线节点
+      - 🇺🇸 🇺🇸【北美洲】美国01丨V6【1x】
+      - 🇺🇸 🇺🇸【北美洲】美国01原生丨直连【2x】
+      - 🇺🇸 🇺🇸【北美洲】美国02丨V6【1x】
+      - 🇺🇸 🇺🇸【北美洲】美国02原生丨直连【2x】
+      - 🇺🇸 🇺🇸【北美洲】美国03原生丨直连【2x】
+      - 🇺🇸 🇺🇸【北美洲】美国04原生丨直连【2x】
   - name: '🌍 国外媒体'
     type: select
     proxies: ['🚀 节点选择', '🎯 全球直连']
@@ -696,6 +2024,64 @@ proxy-groups:
   - name: '🎯 全球直连'
     type: select
     proxies: [DIRECT]
+  - name: 🇭🇰 🇭🇰【亚洲】香港01丨V6【1x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 🔥【交流群@pgkj0402】 01-🇭🇰【亚洲】香港01丨V6【1x】
+      - 📢【频道群@pgkj666】 02-🇭🇰【亚洲】香港01丨V6【1x】
+      - 03-🇭🇰【亚洲】香港01丨V6【1x】
+      - 04-🇭🇰【亚洲】香港01丨V6【1x】
+      - 05-🇭🇰【亚洲】香港01丨V6【1x】
+      - 06-🇭🇰【亚洲】香港01丨V6【1x】
+      - 07-🇭🇰【亚洲】香港01丨V6【1x】
+      - 08-🇭🇰【亚洲】香港01丨V6【1x】
+      - 09-🇭🇰【亚洲】香港01丨V6【1x】
+      - 10-🇭🇰【亚洲】香港01丨V6【1x】
+  - name: 🇭🇰 🇭🇰【亚洲】香港01丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇭🇰【亚洲】香港01丨直连
+      - 02-🇭🇰【亚洲】香港01丨直连
+      - 03-🇭🇰【亚洲】香港01丨直连
+      - 04-🇭🇰【亚洲】香港01丨直连
+      - 05-🇭🇰【亚洲】香港01丨直连
+      - 06-🇭🇰【亚洲】香港01丨直连
+  - name: 🇭🇰 🇭🇰【亚洲】香港02丨V6【1x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇭🇰【亚洲】香港02丨V6【1x】
+      - 02-🇭🇰【亚洲】香港02丨V6【1x】
+      - 03-🇭🇰【亚洲】香港02丨V6【1x】
+      - 04-🇭🇰【亚洲】香港02丨V6【1x】
+      - 05-🇭🇰【亚洲】香港02丨V6【1x】
+      - 06-🇭🇰【亚洲】香港02丨V6【1x】
+      - 07-🇭🇰【亚洲】香港02丨V6【1x】
+      - 08-🇭🇰【亚洲】香港02丨V6【1x】
+      - 09-🇭🇰【亚洲】香港02丨V6【1x】
+      - 10-🇭🇰【亚洲】香港02丨V6【1x】
+  - name: 🇭🇰 🇭🇰【亚洲】香港02丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇭🇰【亚洲】香港02丨直连
+      - 02-🇭🇰【亚洲】香港02丨直连
+      - 03-🇭🇰【亚洲】香港02丨直连
+      - 04-🇭🇰【亚洲】香港02丨直连
   - name: 🇭🇰 🇭🇰【亚洲】香港03丨直连
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -703,12 +2089,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - 🔥【交流群@pgkj0402】 01-🇭🇰【亚洲】香港03丨直连
-      - 📢【频道群@pgkj666】 02-🇭🇰【亚洲】香港03丨直连
+      - 01-🇭🇰【亚洲】香港03丨直连
+      - 02-🇭🇰【亚洲】香港03丨直连
       - 03-🇭🇰【亚洲】香港03丨直连
       - 04-🇭🇰【亚洲】香港03丨直连
       - 05-🇭🇰【亚洲】香港03丨直连
-      - 06-🇭🇰【亚洲】香港03丨直连
   - name: 🇭🇰 🇭🇰【亚洲】香港04丨直连
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -720,6 +2105,7 @@ proxy-groups:
       - 02-🇭🇰【亚洲】香港04丨直连
       - 03-🇭🇰【亚洲】香港04丨直连
       - 04-🇭🇰【亚洲】香港04丨直连
+      - 05-🇭🇰【亚洲】香港04丨直连
   - name: 🇭🇰 🇭🇰【亚洲】香港05原生丨移动直连
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -771,6 +2157,105 @@ proxy-groups:
       - 08-🇸🇬 【亚洲】新加坡02丨Vless
       - 09-🇸🇬 【亚洲】新加坡02丨Vless
       - 10-🇸🇬 【亚洲】新加坡02丨Vless
+  - name: 🇸🇬 🇸🇬【亚洲】新加坡01丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬【亚洲】新加坡01丨直连
+      - 02-🇸🇬【亚洲】新加坡01丨直连
+      - 03-🇸🇬【亚洲】新加坡01丨直连
+      - 04-🇸🇬【亚洲】新加坡01丨直连
+      - 05-🇸🇬【亚洲】新加坡01丨直连
+      - 06-🇸🇬【亚洲】新加坡01丨直连
+  - name: 🇸🇬 🇸🇬【亚洲】新加坡02丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬【亚洲】新加坡02丨直连
+      - 02-🇸🇬【亚洲】新加坡02丨直连
+      - 03-🇸🇬【亚洲】新加坡02丨直连
+      - 04-🇸🇬【亚洲】新加坡02丨直连
+  - name: 🇸🇬 🇸🇬【亚洲】新加坡03丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬【亚洲】新加坡03丨直连
+      - 02-🇸🇬【亚洲】新加坡03丨直连
+      - 03-🇸🇬【亚洲】新加坡03丨直连
+      - 04-🇸🇬【亚洲】新加坡03丨直连
+      - 05-🇸🇬【亚洲】新加坡03丨直连
+  - name: 🇸🇬 🇸🇬【亚洲】新加坡04丨直连
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬【亚洲】新加坡04丨直连
+      - 02-🇸🇬【亚洲】新加坡04丨直连
+      - 03-🇸🇬【亚洲】新加坡04丨直连
+      - 04-🇸🇬【亚洲】新加坡04丨直连
+      - 05-🇸🇬【亚洲】新加坡04丨直连
+  - name: 🇸🇬 🇸🇬【亚洲】新加坡07丨V6【1x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 02-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 03-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 04-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 05-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 06-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 07-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 08-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 09-🇸🇬【亚洲】新加坡07丨V6【1x】
+      - 10-🇸🇬【亚洲】新加坡07丨V6【1x】
+  - name: 🇸🇬 🇸🇬【亚洲】新加坡08丨V6【1x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 02-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 03-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 04-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 05-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 06-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 07-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 08-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 09-🇸🇬【亚洲】新加坡08丨V6【1x】
+      - 10-🇸🇬【亚洲】新加坡08丨V6【1x】
+  - name: 🇯🇵 🇯🇵【亚洲】日本01丨V6【1x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇯🇵【亚洲】日本01丨V6【1x】
+      - 02-🇯🇵【亚洲】日本01丨V6【1x】
+      - 03-🇯🇵【亚洲】日本01丨V6【1x】
+      - 04-🇯🇵【亚洲】日本01丨V6【1x】
+      - 05-🇯🇵【亚洲】日本01丨V6【1x】
+      - 06-🇯🇵【亚洲】日本01丨V6【1x】
+      - 07-🇯🇵【亚洲】日本01丨V6【1x】
+      - 08-🇯🇵【亚洲】日本01丨V6【1x】
+      - 09-🇯🇵【亚洲】日本01丨V6【1x】
+      - 10-🇯🇵【亚洲】日本01丨V6【1x】
   - name: 🇯🇵 🇯🇵【亚洲】日本01丨Vless
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -780,6 +2265,48 @@ proxy-groups:
     proxies:
       - 01-🇯🇵【亚洲】日本01丨Vless
       - 02-🇯🇵【亚洲】日本01丨Vless
+      - 03-🇯🇵【亚洲】日本01丨Vless
+      - 04-🇯🇵【亚洲】日本01丨Vless
+      - 05-🇯🇵【亚洲】日本01丨Vless
+      - 06-🇯🇵【亚洲】日本01丨Vless
+      - 07-🇯🇵【亚洲】日本01丨Vless
+      - 08-🇯🇵【亚洲】日本01丨Vless
+      - 09-🇯🇵【亚洲】日本01丨Vless
+      - 10-🇯🇵【亚洲】日本01丨Vless
+  - name: 🇯🇵 🇯🇵【亚洲】日本02丨V6【1x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇯🇵【亚洲】日本02丨V6【1x】
+      - 02-🇯🇵【亚洲】日本02丨V6【1x】
+      - 03-🇯🇵【亚洲】日本02丨V6【1x】
+      - 04-🇯🇵【亚洲】日本02丨V6【1x】
+      - 05-🇯🇵【亚洲】日本02丨V6【1x】
+      - 06-🇯🇵【亚洲】日本02丨V6【1x】
+      - 07-🇯🇵【亚洲】日本02丨V6【1x】
+      - 08-🇯🇵【亚洲】日本02丨V6【1x】
+      - 09-🇯🇵【亚洲】日本02丨V6【1x】
+      - 10-🇯🇵【亚洲】日本02丨V6【1x】
+  - name: 🇯🇵 🇯🇵【亚洲】日本02丨Vless
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇯🇵【亚洲】日本02丨Vless
+      - 02-🇯🇵【亚洲】日本02丨Vless
+      - 03-🇯🇵【亚洲】日本02丨Vless
+      - 04-🇯🇵【亚洲】日本02丨Vless
+      - 05-🇯🇵【亚洲】日本02丨Vless
+      - 06-🇯🇵【亚洲】日本02丨Vless
+      - 07-🇯🇵【亚洲】日本02丨Vless
+      - 08-🇯🇵【亚洲】日本02丨Vless
+      - 09-🇯🇵【亚洲】日本02丨Vless
+      - 10-🇯🇵【亚洲】日本02丨Vless
   - name: 🇯🇵 🇯🇵【亚洲】日本03丨Vless
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -797,21 +2324,88 @@ proxy-groups:
       - 08-🇯🇵【亚洲】日本03丨Vless
       - 09-🇯🇵【亚洲】日本03丨Vless
       - 10-🇯🇵【亚洲】日本03丨Vless
-  - name: 🏴‍☠️ 建议：感到卡顿请切换到专线节点
+  - name: 🇺🇸 🇺🇸【北美洲】美国01丨V6【1x】
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     lazy: true
     proxies:
-      - 01-建议：感到卡顿请切换到专线节点
-      - 02-建议：感到卡顿请切换到专线节点
-      - 03-建议：感到卡顿请切换到专线节点
-      - 04-建议：感到卡顿请切换到专线节点
-      - 05-建议：感到卡顿请切换到专线节点
-      - 06-建议：感到卡顿请切换到专线节点
-      - 07-建议：感到卡顿请切换到专线节点
-      - 08-建议：感到卡顿请切换到专线节点
+      - 01-🇺🇸【北美洲】美国01丨V6【1x】
+      - 02-🇺🇸【北美洲】美国01丨V6【1x】
+      - 03-🇺🇸【北美洲】美国01丨V6【1x】
+      - 04-🇺🇸【北美洲】美国01丨V6【1x】
+      - 05-🇺🇸【北美洲】美国01丨V6【1x】
+      - 06-🇺🇸【北美洲】美国01丨V6【1x】
+      - 07-🇺🇸【北美洲】美国01丨V6【1x】
+      - 08-🇺🇸【北美洲】美国01丨V6【1x】
+      - 09-🇺🇸【北美洲】美国01丨V6【1x】
+      - 10-🇺🇸【北美洲】美国01丨V6【1x】
+  - name: 🇺🇸 🇺🇸【北美洲】美国01原生丨直连【2x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇺🇸【北美洲】美国01原生丨直连【2x】
+      - 02-🇺🇸【北美洲】美国01原生丨直连【2x】
+      - 03-🇺🇸【北美洲】美国01原生丨直连【2x】
+      - 04-🇺🇸【北美洲】美国01原生丨直连【2x】
+  - name: 🇺🇸 🇺🇸【北美洲】美国02丨V6【1x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇺🇸【北美洲】美国02丨V6【1x】
+      - 02-🇺🇸【北美洲】美国02丨V6【1x】
+      - 03-🇺🇸【北美洲】美国02丨V6【1x】
+      - 04-🇺🇸【北美洲】美国02丨V6【1x】
+      - 05-🇺🇸【北美洲】美国02丨V6【1x】
+      - 06-🇺🇸【北美洲】美国02丨V6【1x】
+      - 07-🇺🇸【北美洲】美国02丨V6【1x】
+      - 08-🇺🇸【北美洲】美国02丨V6【1x】
+      - 09-🇺🇸【北美洲】美国02丨V6【1x】
+      - 10-🇺🇸【北美洲】美国02丨V6【1x】
+  - name: 🇺🇸 🇺🇸【北美洲】美国02原生丨直连【2x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇺🇸【北美洲】美国02原生丨直连【2x】
+      - 02-🇺🇸【北美洲】美国02原生丨直连【2x】
+      - 03-🇺🇸【北美洲】美国02原生丨直连【2x】
+      - 04-🇺🇸【北美洲】美国02原生丨直连【2x】
+      - 05-🇺🇸【北美洲】美国02原生丨直连【2x】
+      - 06-🇺🇸【北美洲】美国02原生丨直连【2x】
+  - name: 🇺🇸 🇺🇸【北美洲】美国03原生丨直连【2x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇺🇸【北美洲】美国03原生丨直连【2x】
+      - 02-🇺🇸【北美洲】美国03原生丨直连【2x】
+      - 03-🇺🇸【北美洲】美国03原生丨直连【2x】
+  - name: 🇺🇸 🇺🇸【北美洲】美国04原生丨直连【2x】
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    proxies:
+      - 01-🇺🇸【北美洲】美国04原生丨直连【2x】
+      - 02-🇺🇸【北美洲】美国04原生丨直连【2x】
+      - 03-🇺🇸【北美洲】美国04原生丨直连【2x】
+      - 04-🇺🇸【北美洲】美国04原生丨直连【2x】
+      - 05-🇺🇸【北美洲】美国04原生丨直连【2x】
+      - 06-🇺🇸【北美洲】美国04原生丨直连【2x】
+      - 07-🇺🇸【北美洲】美国04原生丨直连【2x】
 rules:
   - 'IP-CIDR,129.146.160.80/32,DIRECT,no-resolve'
   - 'IP-CIDR,148.135.52.61/32,DIRECT,no-resolve'
